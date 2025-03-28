@@ -1,5 +1,4 @@
-@import '../setting/**';
-@import '../mixin/**';
+@use '../setting/index ' as settig;
 
 .main {
   background-image: url("../../../img/circle.svg");
@@ -82,9 +81,87 @@
       font-weight: bold;
       margin-bottom: 54px;
     }
+
     p {
       line-height: 1.5;
       font-weight: bold;
     }
   }
+}
+
+.price {
+  background-color: $bg-color;
+  padding: 64px 20px 128px;
+
+  &-inner {
+    min-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &-ttl {
+    margin-top: 40px;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 40px;
+
+    span {
+      font-size: 16px;
+      color: $sub-ttl-color;
+      display: block;
+      margin-top: 20px;
+    }
+  }
+
+  table {
+    width: 100%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+    border-collapse: collapse;
+
+    th {
+      width: 30%;
+      padding: 30px;
+      min-width: 300px;
+      border: 1px solid #f0eded;
+    }
+
+    td {
+      width: 70%;
+      text-align: left;
+      padding: 30px;
+      border: 1px solid #f0eded;
+      font-weight: bold;
+    }
+  }
+}
+
+.contact {
+  background: $gradient;
+  padding: 40px 20px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 40px;
+
+  span {
+    font-size: 16px;
+    display: block;
+    margin-top: 20px;
+  }
+
+  p {
+    margin-bottom: 44px;
+    line-height: 1.8;
+  }
+
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.footer {
+  padding: 40px 20px;
+  text-align: center;
 }
