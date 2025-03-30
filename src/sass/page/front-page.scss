@@ -1,4 +1,4 @@
-@use '../setting/index ' as settig;
+@use '../setting/index' as setting;
 
 .main {
   background-image: url("../../../img/circle.svg");
@@ -51,7 +51,7 @@
     span {
       font-size: 16px;
       color: $sub-ttl-color;
-      display: block;
+      // display: block;
       margin-top: 20px;
     }
   }
