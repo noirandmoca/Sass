@@ -193,7 +193,8 @@
   height: 37px;
   background: linear-gradient(90deg, #FA41CC, #6020B0);
   color: #fff;
-  border-radius: 10ox;
+  border-radius: 10px;
+  text-decoration: none;
   display: block;
   text-align: center;
   line-height: 37px;
