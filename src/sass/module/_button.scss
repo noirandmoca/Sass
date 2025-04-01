@@ -3,9 +3,11 @@
   height: 37px;
   background: $btn-color;
   color: #fff;
-  border-radius: 10ox;
+  border-radius: 10px;
+  text-decoration: none;
   display: block;
   text-align: center;
   line-height: 37px;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  font-weight: bold;
 }
