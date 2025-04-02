@@ -58,7 +58,7 @@
   }
 
   &-inner {
-    min-width: 1024px;
+    max-width: 1024px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -95,7 +95,7 @@
   padding: 64px 20px 128px;
 
   &-inner {
-    min-width: 1024px;
+    max-width: 1024px;
     margin-left: auto;
     margin-right: auto;
   }
