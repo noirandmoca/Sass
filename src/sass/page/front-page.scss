@@ -8,15 +8,15 @@
   position: relative;
 
   &-inner {
-    min-width: 1024px;
+    max-width: 1024px;
     margin-left: auto;
     margin-right: auto;
     padding: 100px 20px;
+    right: 0;
   }
 
   &-copy {
     text-align: left;
-    padding: 0 170px;
 
     h2 {
       font-size: 32px;
@@ -40,6 +40,7 @@
     z-index: 1000;
   }
 }
+
 
 .feature {
   &-ttl {

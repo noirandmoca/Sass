@@ -6,14 +6,14 @@
   position: relative;
 }
 .main-inner {
-  min-width: 1024px;
+  max-width: 1024px;
   margin-left: auto;
   margin-right: auto;
   padding: 100px 20px;
+  right: 0;
 }
 .main-copy {
   text-align: left;
-  padding: 0 170px;
 }
 .main-copy h2 {
   font-size: 32px;
@@ -148,11 +148,13 @@
 .header {
   position: fixed;
   top: 0;
+  left: 0;
   z-index: 9999;
   width: 100%;
   height: 94px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
   background: #fff;
+  background-position: center;
 }
 .header-inner {
   max-width: 1024px;
